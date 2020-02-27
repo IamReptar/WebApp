@@ -1,12 +1,17 @@
 body{
-  margin-left: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 h1{
-  color: #DAA520;
+  color: #DAA520;   <!-- good color #DBE9EE -->
 }
 
-nav ul{
+.page{
+  padding: 20px;
+}
+
+nav .list{
   background-color: #4682B4;
   margin: 0;
   width: 100%;
@@ -15,15 +20,18 @@ nav ul{
   list-style-type: none;
 }
 
-nav li {
-  margin: 0;
+li {
   display: table-cell;
-
 }
 
 li a {
-	display: block;
+  display: block;
 	color: #DAA520;
 	padding: 30px 30px;
   text-decoration: none;
+  margin: 0px 140px;
+}
+
+a:hover {
+  color: black;
 }
